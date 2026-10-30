@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+*{box-sizing:border-box;}
+header
+     {display: flex; 
+      flex-wrap: wrap;
+      flex-direction: row;
+        align-items:center; 
+        justify-content:space-between;
+     margin: 20px auto 40px auto ; 
+     background-color: rgb(212, 201, 201,.4) ;
+      border-radius: 40px;
+     border-bottom: 4px solid rgb(27, 20, 20); 
+      min-height: 120px;
+      min-width: 95%;} 
+button, input
+    {border-radius: 30px; 
+      height: 30px; 
+      width: 100px;
+cursor: pointer;}
+header .hm
+    { margin:50px auto;
+       min-height: 100px;
+      min-width: 100px;
+         background-color: white; 
+      border-radius: 30px;}
+header  ul a img
+        { height: 60px; width: 50px;}
+header ul 
+       {list-style: none; 
+       display: flex;
+       flex-direction: row;
+   gap: 70px;
+     flex-wrap: wrap;}
+ header a img:hover
+       {background-color:white;
+      color:rgb(228, 225, 41);}
+h2
+ { font-weight: bold; 
+font-size: 20px;
+border: 2px solid black;
+ border-radius: 30%;
+min-width: 140px;
+text-align: center;
+margin: 10px auto;} 
+.all form
+{ border: 3px solid black; 
+min-height: 200px; 
+min-width:200px;
+ text-align: center;
+  border-radius: 40%;
+   margin:auto;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;}
+.all
+      {display: flex;
+       flex-direction: column;
+        min-height:900px; 
+        min-width: 200px; 
+        align-items: center; 
+       border-radius: 30px;
+        margin:auto;}  
+.all h2:hover
+     {  background-color:black ; color: white;}
+ .all form
+     {   background-color:  rgb(212, 201, 201); margin:30px auto; }
+
+     header img , footer img {
+      transition:0,3s;
+}
+header img:hover ,footer img:hover {
+      transform: scale(1,2);
+}
+@media  (max-width:768px){ 
+.header {
+      flex-direction: column;
+      width: 95%;
+      height:auto;
+      gap: 20px;
+      border-radius: 20px;
+margin: auto;}
+ .all {
+    flex-direction:column;
+    margin: auto;
+    width:95%;
+}}
+
+    </style>
+</head>
+<body>
+ <header>
+<img src="lo-ce.png" alt="" class="hm">
+<nav> <ul>
+         <li><a href="index.html"><img src="home.png" alt=""></a></li>
+     <li><a href="#teachM"><img src="about2.png" alt=""></a></li>
+     <li><a href="#con"><img src="con2.png" alt=""></a></li>
+    <li><a href="#map"><img src="location.png" alt=""></a></li>
+         <li><a href="#log"><img src="ing.png" alt=""></a></li>
+    </ul>  </nav>
+ <form action="">
+    <button type="submit">search</button>
+    <input type="search" name="search" id="search" placeholder="search">
+    </form>  </header>
+<section>
+ <div class="all">
+   <div>
+   <form action=" " id="ex">
+        <a href=""> <img src="test.png" alt=""> </a>
+        <h2>  الاختبارات</h2>
+      </form>
+     </div>
+<div>
+    <form action="" id="Mo">
+        <a href=""><img src="bok.png" alt=""></a>
+        <h2>الشهادات</h2>
+    </form>
+     </div>
+ <div>
+  <form action="" id="tk">
+        <a href=""><img src="taqwa.png" alt=""></a>
+        <h2> النتائج</h2>
+   </form>
+      </div>
+<div>
+<form action=" " id="cs">
+ <a href=""> <img src="call cen.png" alt=""> </a>
+        <h2>خدمه عملاء</h2>
+   </form>
+   </div>
+</div>
+</section>
+    <footer id="con">
+<div class="image">
+        <img src="facebook.png" alt="">
+        <img src="insta.png" alt="">
+        <img src="tek.png" alt="">
+        <img src="what.png" alt="">
+        <img src="tel.png" alt="">
+</div>
+<div>
+        <a href=""><img src="home.png" alt=""></a>
+</div>
+<div>
+       <a href="tel">tel / 01065667221</a>
+</div>
+
+</footer>
+</body>
+</html>

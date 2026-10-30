@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subjet</title>
+        <link rel="stylesheet" href="style.css">
+
+<style>   
+
+* { box-sizing: border-box;}
+header
+     {display: flex; 
+      flex-wrap: wrap;
+      flex-direction: row;
+        align-items:center; 
+        justify-content:space-between;
+     margin: 20px auto 40px auto ; 
+     background-color: rgb(212, 201, 201,.4) ;
+      border-radius: 40px;
+     border-bottom: 4px solid rgb(27, 20, 20); 
+      min-height: 120px;
+      min-width: 95%;} 
+button, input
+    {border-radius: 30px; 
+      height: 30px; 
+      width: 100px;
+cursor: pointer;}
+header .hm
+    { margin:50px auto;
+       min-height: 100px;
+      min-width: 100px;
+         background-color: white; 
+      border-radius: 30px;}
+header  ul a img
+        { height: 60px; width: 50px;}
+header ul 
+       {list-style: none; 
+       display: flex;
+       flex-direction: row;
+   gap: 70px;
+     flex-wrap: wrap;}
+ header a img:hover
+       {background-color:white;
+      color:rgb(228, 225, 41);}
+
+.sp
+{margin: auto;
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+max-width:90%;
+}
+.spec
+ { min-height:700px;
+width:600px;
+ margin:10px auto;
+  display:flex; 
+  flex-direction:row;
+flex-wrap: wrap; }
+.spec img
+      {height: 50px; 
+      width: 50px;
+      border-radius: 20%; }
+ .spec img:hover
+       {background-color: white;}
+.spec a
+      { text-decoration:none; 
+      font-weight: bold;
+       color: black; 
+       font-size: 20px;
+      margin: auto;}
+ .sp
+ {
+      display: flex;
+      flex-wrap: wrap;
+     margin: auto;}
+
+.spec form
+      { display: flex; 
+      flex-direction: column;
+       margin:auto;
+        gap: 20px; 
+        text-align: center;
+        border: 3px black solid;
+      min-height:650px;
+      min-width:250px; 
+      border-radius: 40px; 
+      justify-content: space-between;
+       background-color:rgb(212, 201, 201) ;}
+.spec h2:hover 
+      { background-color: white; color: black}
+h2
+ { font-weight: bold; 
+font-size: 20px;
+border: 2px solid black;
+ border-radius: 30%;
+min-width: 140px;
+text-align: center;
+margin: 10px auto;} 
+p
+{font-weight: bold;
+text-align: center;
+ font-size: 30px;
+  margin: 20px auto;
+ border: 3px solid black ;
+width:350px;
+ border-radius: 30%;}
+ footer 
+     { display: flex;
+      flex-wrap: wrap;
+      flex-direction: column; 
+      background-color:rgb(212, 201, 201); 
+     min-height: 400px;
+     min-width: 95%;
+       align-items: center;
+        justify-content: center; 
+        margin: auto;} 
+footer img{ height: 40px; width: 50px; margin:auto;}  
+.image {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:auto;
+      gap:15px;
+}
+
+header img , footer img ,.spec img {
+      transition:0,3s;
+}
+header img:hover ,footer img:hover ,.spec img:hover {
+
+      transform: scale(1,2);
+}
+
+@media  (max-width:768px){ 
+.header {
+      flex-direction: column;
+      width: 95%;
+      height:auto;
+      gap: 20px;
+      border-radius: 20px;
+margin: auto;}
+.spec ,.mrahl2 {
+    flex-direction:column;
+    margin: auto;
+    width:95%;
+}}
+</style>
+<body>
+ <header>
+<img src="lo-ce.png" alt="" class="hm">
+<nav> <ul>
+         <li><a href="index.html"><img src="home.png" alt=""></a></li>
+     <li><a href="#teachM"><img src="about2.png" alt=""></a></li>
+     <li><a href="#con"><img src="con2.png" alt=""></a></li>
+    <li><a href="#map"><img src="location.png" alt=""></a></li>
+         <li><a href="#log"><img src="ing.png" alt=""></a></li>
+    </ul>  </nav>
+ <form action="">
+    <button type="submit">search</button>
+    <input type="search" name="search" id="search" placeholder="search">
+    </form>  </header>
+
+     <section class="sp" id="spj">
+        <p> المواد الدراسيه</p>
+<div class="spec">
+    <form action="">
+        <a href=""><img src="fal.png" alt=""></a>
+       <h2>فلسفه</h2>
+        <a href=""> <img src="fez.png" alt=""></a>
+              <h2>فيزياء  </h2>
+        <a href=""> <img src="math.png" alt=""></a>
+              <h2>رياضيات</h2>
+        <a href=""> <img src="e2.png" alt=""></a>
+               <h2>اللغه الانجليزيه</h2>
+         </form>
+
+<form action="">
+        <a href=""> <img src="kem.png" alt=""></a>
+                <h2>كيمياء </h2>
+        <a href=""><img src="gora.png" alt=""></a>
+                <h2>جغرافيا </h2>
+        <a href=""> <img src="payo.png" alt=""></a>
+                <h2>بيولوجي </h2>
+        <a href="">  <img src="bbbb.png" alt=""></a>
+                <h2>اللغه العربيه</h2>
+         </form>
+</div>
+  </section>
+<footer id="con">
+<div class="image">
+        <img src="facebook.png" alt="">
+        <img src="insta.png" alt="">
+        <img src="tek.png" alt="">
+        <img src="what.png" alt="">
+        <img src="tel.png" alt="">
+</div>
+<div>
+        <a href=""><img src="home.png" alt=""></a>
+</div>
+<div>
+       <a href="tel">tel / 01065667221</a>
+</div>
+
+</footer>
+
+</body>
+</head>

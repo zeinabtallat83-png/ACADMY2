@@ -1,0 +1,206 @@
+ *{
+      box-sizing: border-box;}
+body
+{background-image: url(tag.jpg);
+ background-repeat: no-repeat;
+background-position:center;
+  background-size: cover;
+  display: flex;
+ flex-direction: column;
+ flex-wrap: wrap; 
+  margin:0; 
+  padding: 0; 
+  overflow-x:hidden; 
+  font-family: sans-serif;   }
+header
+     {display: flex; 
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items:center; 
+      justify-content:space-between;
+     margin: 20px auto 40px auto ; 
+     background-color: rgb(212, 201, 201,.4) ;
+      border-radius: 40px;
+     border-bottom: 4px solid rgb(27, 20, 20); 
+      min-height: 200px;
+      width: 95%;
+padding: 10px ;}
+button, input
+    {border-radius: 30px; 
+      height: 30px; 
+      width: 100px;
+cursor: pointer;}
+header .hm
+    { margin:50px auto;
+       min-height: 100px;
+      min-width: 100px;
+         background-color: white; 
+      border-radius: 30px;}
+header  ul a img
+        { height: 60px; width: 50px;}
+header ul 
+       {list-style: none; 
+       display: flex;
+       flex-direction: row;
+   gap: 70px;
+     flex-wrap: wrap;}
+ header a img:hover
+       {background-color:white;
+      color:rgb(228, 225, 41);}
+.cv
+ { margin: 20px auto;
+ border: 3px solid black;
+ min-height:150px;
+ /* min-width:400px; */
+ width:calc(100%-40px);
+ border-radius:20%;
+background-color: white;
+padding: auto;}
+h1
+ {font-size:20px;
+ text-align:center;
+color: rgb(179, 137, 24);
+margin:20px auto;
+padding:20px auto;
+ }
+ p
+{font-weight: bold;
+text-align: center;
+ font-size: 30px;
+  margin: 20px auto;
+ border: 3px solid black ;
+width:350px;
+ border-radius: 30%;}
+.teachM 
+{margin: auto;
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+max-width:90%;
+}
+.teach 
+ { min-height:700px;
+width:600px;
+ margin:10px auto;
+  display:flex; 
+  flex-direction:row;
+flex-wrap: wrap; }
+.teach img 
+      {height: 50px; 
+      width: 50px;
+      border-radius: 20%; }
+ .teach img:hover 
+       {background-color: white;}
+.teach a 
+      { text-decoration:none; 
+      font-weight: bold;
+       color: black; 
+       font-size: 20px;
+      margin: auto;}
+ .teach1,.teach2{
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;}
+
+.teach1 form  ,.teach2 form 
+      { display: flex; 
+      flex-direction: column;
+       margin:auto;
+        gap: 20px; 
+        text-align: center;
+        border: 3px black solid;
+      min-height:650px;
+      min-width:250px; 
+      border-radius: 40px; 
+      justify-content: space-between;
+       background-color:rgb(212, 201, 201) ;}
+.spec h2:hover ,.teach a:hover
+      { background-color: white; color: black}
+h2
+ { font-weight: bold; 
+font-size: 20px;
+border: 2px solid black;
+ border-radius: 30%;
+min-width: 140px;
+text-align: center;
+margin: 10px auto;} 
+
+.ourteacher
+ {margin: auto;
+padding: 20px auto;
+border: 3px sold black;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+min-width: 400px;
+}
+h3 {
+font-family: initial;
+font-weight: lighter;
+font-size: larger;
+color: grey;
+max-width: 300px;}
+
+.log
+      { display: flex; 
+      flex-direction: column;
+      flex-wrap: wrap;
+       margin:auto ;
+        border: 5px solid black;
+        min-height:400px; max-width: 650px;
+         border-radius: 30%;
+          text-align: center;
+           cursor: pointer;
+         background-color:  rgb(212, 201, 201); }
+.log img
+      {min-height:70px;min-width: 150px;   margin: 30px auto ; }
+.log h2
+      { margin-bottom: 30px; 
+            font-weight: bold; 
+            font-size: 30px;
+             margin-left: auto;}
+
+iframe    
+     {min-height:200px;
+      min-width: 95%;
+margin:20px auto;
+display: flex;
+justify-content: center;}
+
+ footer 
+     { display: flex;
+      flex-wrap: wrap;
+      flex-direction: column; 
+      background-color:rgb(212, 201, 201); 
+     min-height: 400px;
+     min-width: 95%;
+       align-items: center;
+        justify-content: center; 
+        margin: auto;} 
+footer img{ height: 40px; width: 50px; margin:auto;}  
+.image {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:auto;
+      gap:15px;
+}
+
+header img , footer img {
+      transition:0,3s;
+}
+header img:hover ,footer img:hover {
+
+      transform: scale(1,2);
+}
+    @media  (max-width:768px)
+    { .header {
+      flex-direction: column;
+      width: 95%;
+      height:auto;
+      gap: 20px;
+      border-radius: 20px;
+margin: auto;}
+
+      .teach{
+width: 90%;   }};

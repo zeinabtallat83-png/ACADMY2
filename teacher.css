@@ -1,0 +1,198 @@
+*{box-sizing: border-box;}
+body 
+{margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header
+     {display: flex; 
+      flex-wrap: wrap;
+      flex-direction: row;
+    align-items:center; 
+     justify-content:space-between;
+     margin: 20px auto 40px auto ; 
+     background-color: rgb(212, 201, 201,.4) ;
+      border-radius: 40px;
+     border-bottom: 4px solid rgb(27, 20, 20); 
+    height: auto;
+      min-width: 95%;} 
+button, input
+    {border-radius: 30px; 
+      height: 30px; 
+      width: 100px;
+cursor: pointer;}
+header.hm
+    { margin:50px auto;
+       min-height: 100px;
+      min-width: 100px;
+         background-color: white; 
+      border-radius: 30px;}
+header  ul a img
+        { height: 60px; width: 50px;}
+header ul 
+       {list-style: none; 
+       display: flex;
+       flex-direction: row;
+   gap: 70px;
+     flex-wrap: wrap;}
+ header a img:hover
+       {background-color:white;
+      color:rgb(228, 225, 41);}
+
+h1{ text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+background-color: wheat;
+width: 50%;
+margin:auto;
+border-radius: 15%;
+ }
+
+ h2
+ {text-align: center;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+background-color: rgba(97, 80, 80, 0.4) ;
+min-width: 200px;
+margin:auto;
+border-radius: 15%;
+ }
+ .main{  
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content:space-evenly;
+align-items: center;
+ background-color: rgba(97, 80, 80, 0.4) ;
+ min-width:95%;
+ margin:20px auto;
+ border-radius: 20%;
+ }
+ .teach
+ {display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-evenly;
+align-items: center;
+ min-width: 90%;
+ min-height: 300px;
+ margin: auto;
+ gap: 10px;
+ }
+.teach1
+{display: flex;
+    flex-direction: column;
+   min-height: 170px;
+   width: 120px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 20%;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    background-color: wheat;
+}
+b {text-align: center;
+    font-size: 20px;
+    margin:auto;
+    background-color:white ;
+    border-radius: 10Px;
+}
+
+#form  {
+border: 4px solid grey;
+border-radius: 30%;
+width: fit-content;
+height: auto;
+padding: auto;
+margin: auto;
+}
+.teach1 img {
+height: 120px;
+width: 120px;
+border-radius:25%;
+align-items: center;
+margin: auto;
+}
+.teach1 button{
+    height: 120px;
+width: 120px;
+border-radius:20%;
+margin:auto;
+}
+button:hover
+{animation: drow .5s;      }
+@keyframes drow {
+0% { transform: rotate(0);}
+25% {  transform: rotate(15deg);}
+50% {  transform: rotate(30deg);}
+75% {  transform: rotate(-15deg);}
+100% { transform: rotate(0deg);}
+}
+
+#inform {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+    width: 40%;
+    height: 100px;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+footer 
+     { display: flex;
+      flex-wrap: wrap;
+      flex-direction: column; 
+      background-color:rgb(212, 201, 201); 
+     min-height: 400px;
+     min-width: 95%;
+       align-items: center;
+        justify-content: center; 
+        margin: auto;} 
+footer img{ height: 40px; width: 50px; margin:auto;}  
+.image {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:auto;
+      gap:15px;}
+header img , footer img {
+      transition:0,3s;
+}
+header img:hover ,footer img:hover {
+
+      transform: scale(1,2);
+}
+@media (max-width:768px){
+ .header {
+      flex-direction: column;
+      width: 95%;
+      height:auto;
+      gap: 20px;
+      border-radius: 20px;
+margin: auto;}
+ .teach {
+width: 90%;  
+flex-direction: column;
+      height:auto;
+      gap: 20px;
+      border-radius: 20px;
+margin: auto;}
+.teach1{
+flex-direction: column;
+      width: 50%;
+      height:auto;
+      gap: 20px;
+      border-radius: 20px;
+margin: auto;}}
+
+
+
+
+
+
